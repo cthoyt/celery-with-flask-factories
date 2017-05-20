@@ -3,8 +3,8 @@ from celery import Celery
 
 
 def create_celery(application):
-    """
-    Configures celery instance from application, using it's config
+    """Configures celery instance from application, using its config
+    
     :param application: Flask application instance
     :return: Celery instance
     """
